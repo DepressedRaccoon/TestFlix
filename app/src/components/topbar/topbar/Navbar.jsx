@@ -1,4 +1,4 @@
-import Search from '@mui/icons-material/Search';
+// import Search from '@mui/icons-material/Search';
 import "./Navbar.scss"
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
           <span>My Ricklist</span>
           
         <div className="right"></div>
-          <Search/>
+          {/* <Search Icon/> */}
           <span>KID</span>
           
         </div>
