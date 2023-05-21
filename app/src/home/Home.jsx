@@ -1,18 +1,17 @@
-import List from "../../../api/models/List"
-import Navbar from "../components/topbar/Navbar"
+// import List from "../../../api/models/List"
+// import Featured from "../components/featured/Featured"
+// import List from "../components/list/List"
 import "./home.scss"
-import Featured from "../components/featured/Featured"
-import List from "../components/list/List"
 
 const home = ({type}) => {
   return (
     <div className="home">
-        <Navbar/> 
-        <Featured type={type}/>
+        HOME PAGE
+        {/* <Featured type={type}/>
         <List/>
         <List/>
         <List/>
-        <List/>
+        <List/> */}
     </div>
   )
 }
