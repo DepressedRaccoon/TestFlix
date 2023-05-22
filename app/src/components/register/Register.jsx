@@ -3,7 +3,16 @@ import "./Register.scss"
 const Register = () => {
   return (
     <div className="register">
-      REGISTRATION PAGE
+      <form>
+        <label>
+          Email:
+          <input type="text" />
+        </label>
+        <label>
+          Password:
+          <input type="text" />
+        </label>
+      </form>
     </div>
   )
 }
