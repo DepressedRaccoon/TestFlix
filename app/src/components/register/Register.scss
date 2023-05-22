@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+
 .register {
-    color: white;
-    background-color: var( --main-color );
+    color: rgb(235, 47, 169);
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    width:650px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(232, 68, 164);
 }
+
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    list-style-type: none;
+    text-shadow: 0 0 20px rgb(165, 109, 151);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.inputs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.input-groups {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    text-shadow: 0 0 20px rgb(232, 68, 164);
+}
+
+.input-groups label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.input-groups input[type="text"],
+.input-groups input[type="password"]{
+    box-shadow: 0 0 20px rgb(232, 68, 164);
+}
+.input-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-button input[type="submit"] {
+    box-shadow: 0 0 20px rgb(232, 68, 164);
+    font-family: 'Poppins';
+}
+
+
