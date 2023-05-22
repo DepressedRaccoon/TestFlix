@@ -9,11 +9,16 @@ const App = () => {
   const user = true; // useContext(AuthContext);
   return (
     <BrowserRouter>
-      {user && <Navbar />}
+      {/* {user && <Navbar />} */}
       <Routes>
-        <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} />
-        <Route path="/login" element={!user ? <Login /> : <Navigate to="/" />} />
-        <Route path="/" element={user ? <Home /> : <Navigate to="/login" />} />
+        {/* {!user && <Route path="/register" element={<Register />} />}
+        {!user && <Route path="/login" element={<Login />} />}
+        {user ? (
+          <Route path="/" element={<Home />} />
+        ) : (
+          <Route path="/" element={<Navigate to="/login" />} />
+        )} */}
+         <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );
