@@ -1,4 +1,5 @@
 import "./topbar/Navbar";
+import "./Movies.scss";
 
 const Movies = () => {
     return(
