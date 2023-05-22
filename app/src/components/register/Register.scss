@@ -2,16 +2,19 @@
 
 
 .register {
-    color: rgb(235, 47, 169);
-    background-color: black;
-    font-family: 'Poppins', sans-serif;
-    width:650px;
-    margin:30px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 0 20px rgb(232, 68, 164);
+    color: white;
+    background-color: var( --black );
 }
+//     color: rgb(235, 47, 169);
+//     background-color: black;
+//     font-family: 'Poppins', sans-serif;
+//     width:650px;
+//     margin:30px auto;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     box-shadow: 0 0 20px rgb(232, 68, 164);
+// }
 
 .header{
     font-size: 40px;
@@ -59,5 +62,3 @@
     box-shadow: 0 0 20px rgb(232, 68, 164);
     font-family: 'Poppins';
 }
-
-
