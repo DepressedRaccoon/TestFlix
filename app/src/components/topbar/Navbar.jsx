@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="left"></div>
-          <img src="/images/rickflix__1_.png" alt="Rickflix logo on navbar" className="navbar-logo" />
+          <img src="/images/cropped rickflix logo.png" alt="Rickflix logo on navbar" className="navbar-logo" />
 
           <span>Homepage</span>
           <span>Series</span>
