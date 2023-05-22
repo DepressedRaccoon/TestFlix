@@ -4,20 +4,21 @@ import "./Navbar.scss"
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="container">
-        <div className="left"></div>
+      <div className="navbar-container">
           <img src="/images/cropped rickflix logo.png" alt="Rickflix logo on navbar" className="navbar-logo" />
 
-          <span>Homepage</span>
-          <span>Series</span>
-          <span>Movies</span>
-          <span>Ricktastic</span>
-          <span>My Ricklist</span>
-          
-        <div className="right"></div>
+            <div class="navbar-links">
+              <li>Homepage</li>
+              <li>Series</li>
+              <li>Movies</li>
+              <li>Ricktastic</li>
+              <li>My Ricklist</li>
+            </div>
+         
+
+     
           {/* <Search Icon/> */}
-          <span>KID</span>
-          
+          {/* <span>KID</span> */}
         </div>
     </div>
   )
