@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import "./Register.scss";
 
 
@@ -13,11 +12,10 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-  
   };
 
   return (
-    <div className="register">
+    <div className="register" >
       <div className="header">REGISTER</div>
       <div className="inputs">
         <form onSubmit={handleSubmit}>
