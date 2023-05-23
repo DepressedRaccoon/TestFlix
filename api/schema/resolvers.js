@@ -35,7 +35,7 @@ module.exports = {
                 throw new Error(err)
             }
         },
-        
+
         updateMovie: async (_, { id, title, desc, img, imgTitle, imgThumb, trailer, video, year, limit, genre, isSeries }) => {
 
             try {
@@ -72,7 +72,7 @@ module.exports = {
             }
         },
 
-        getMovie: async (_, { id }) => {
+        getMovies: async (_, { id }) => {
             try {
                 const movie = await Movie.findById(id);
                 return movie;

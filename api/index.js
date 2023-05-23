@@ -8,6 +8,8 @@ const movieRoute = require('./routes/movies')
 const listRoute = require('./routes/lists')
 const verify = require('./verifyToken')
 
+let PORT = process.env.PORT || 3000;
+
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');
 const server = new ApolloServer({ typeDefs, resolvers, context: verify });
@@ -19,6 +21,8 @@ mongoose.connect(process.env.MONGO_URL, {
     useUnifiedTopology: true,
 }).then(() => console.log("Connected to MongoDB!"))
     .catch((err) => console.log(err));
+
+const db = mongoose.connection;
 
 app.use(express.json());
 
