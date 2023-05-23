@@ -6,7 +6,7 @@ const typeDefs = gql`
         desc: String!
         img: String!
         imgTitle: String!
-        imgSm: String!
+        imgThumb: String!
         trailer: String!
         video: String!
         year: String!
@@ -19,6 +19,9 @@ const typeDefs = gql`
         getMovies: [Movie]
         getMovie(id: ID!): Movie
     }
-`;
+
+    type Mutation {
+        createMovie(title: String!, desc: String!, img: String!, imgTitle: String!, imgThumb: String!, trailer: String!, video: String!, year: String!, limit: Int!, genre: String!, isSeries: Boolean!): Movie!
+    }`;
 
 module.exports = typeDefs;

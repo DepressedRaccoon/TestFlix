@@ -6,7 +6,7 @@ const authRoute = require("./routes/auth");
 const userRoute = require('./routes/users')
 const movieRoute = require('./routes/movies')
 const listRoute = require('./routes/lists')
-const verify = require('./routes/verifyToken')
+const verify = require('./verifyToken')
 
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');
