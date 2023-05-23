@@ -3,24 +3,22 @@
 
 .register {
     color: white;
-    background-color: var( --black );
+    color: rgb(232, 51, 187);
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    width:650px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(185, 104, 150);
 }
-//     color: rgb(235, 47, 169);
-//     background-color: black;
-//     font-family: 'Poppins', sans-serif;
-//     width:650px;
-//     margin:30px auto;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     box-shadow: 0 0 20px rgb(232, 68, 164);
-// }
 
 .header{
     font-size: 40px;
     font-weight: bold;
     list-style-type: none;
-    text-shadow: 0 0 20px rgb(165, 109, 151);
+    text-shadow: 0 0 20px rgb(255, 255, 253);
     text-align: center;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -51,6 +49,7 @@
 .input-groups input[type="text"],
 .input-groups input[type="password"]{
     box-shadow: 0 0 20px rgb(232, 68, 164);
+    background-color: antiquewhite;
 }
 .input-button {
     display: flex;
@@ -61,4 +60,5 @@
 .input-button input[type="submit"] {
     box-shadow: 0 0 20px rgb(232, 68, 164);
     font-family: 'Poppins';
+    background-color: antiquewhite;
 }
