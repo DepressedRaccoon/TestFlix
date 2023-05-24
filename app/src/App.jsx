@@ -6,8 +6,10 @@ import Navbar from './components/topbar/Navbar';
 import Register from './components/register/Register';
 import "./app.scss";
 
+import { AuthContext } from './context/AuthContext';
+
 const App = () => {
-  const user = true; // useContext(AuthContext);
+  const { user } = useContext(AuthContext);
   return (
     <div className="app">
        <BrowserRouter>
