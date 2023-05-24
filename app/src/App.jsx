@@ -7,6 +7,7 @@ import Register from './components/register/Register';
 import "./app.scss";
 
 import { AuthContext } from './context/AuthContext';
+import { useContext } from 'react';
 
 const App = () => {
   const { user } = useContext(AuthContext);
