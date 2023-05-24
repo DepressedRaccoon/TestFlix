@@ -46,3 +46,9 @@ p {
   background-color: rgb(232, 51, 187);
   color: black;
 }
+.button:active {
+  transition-duration: .25s;
+  background-color: rgb(232, 51, 187);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
