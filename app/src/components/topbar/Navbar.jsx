@@ -18,18 +18,7 @@ const Navbar = () => {
               <span className="navbar-neon">
                 <Link to="/movies">Movies</Link>
               </span>
-              <span className="navbar-neon">
-                <Link to="/ricktastic">Ricktastic</Link>
-              </span>
-              <span className="navbar-neon">
-                <Link to="/my-ricklist">My Ricklist</Link>
-              </span>
             </div>
-         
-
-     
-          {/* <Search Icon/> */}
-          {/* <span>KID</span> */}
         </div>
     </div>
   )
