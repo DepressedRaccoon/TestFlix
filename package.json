@@ -12,6 +12,7 @@
   "author": "SChafinIII <118332995+SChafinIII@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "firebase-tools": "^12.2.1"
   }
 }
