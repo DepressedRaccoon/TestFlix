@@ -9,5 +9,16 @@
 <p> Insert Live Link Here </p>
 <br>
 <br>
+
 <h3> Presentation Link </h3>
 <link> https://www.canva.com/design/DAFj4HylJmU/Ymk1LVFNu07Sj2vtWQpw3A/edit?utm_content=DAFj4HylJmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton </link>
+
+<h4> References & Links </h4>
+<p> https://www.youtube.com/watch?v=tsNswx0nRKM&t=13172s </p>
+<p> https://nabendu82.medium.com/netflix-clone-dashboard-frontend-and-backend-integration-d3b9dfcdcc9e </p>
+<p> https://www.youtube.com/watch?v=gK8wQGkVoCQ </p>
+<p> https://www.youtube.com/watch?v=DnzzapctOeQ </p>
+<p> https://www.thisdot.co/blog/how-to-create-netflix-clone-with-react-js-tailwind-css-and-styled-components/ </p>
+<p> https://www.youtube.com/watch?v=tsNswx0nRKM&amp;t=13172s </p>
+<p> https://www.youtube.com/watch?v=gK8wQGkVoCQ </p>
+<p> https://www.youtube.com/watch?v=DnzzapctOeQ </p>
