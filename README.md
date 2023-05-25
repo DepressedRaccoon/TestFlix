@@ -10,4 +10,4 @@
 <br>
 <br>
 <h3> Presentation Link </h3>
-<p> *insert slideshow link here </p>
+<link> https://www.canva.com/design/DAFj4HylJmU/Ymk1LVFNu07Sj2vtWQpw3A/edit?utm_content=DAFj4HylJmU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton </link>
