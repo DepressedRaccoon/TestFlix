@@ -8,7 +8,7 @@ const movieRoute = require('./routes/movies')
 const listRoute = require('./routes/lists')
 const verify = require('./verifyToken')
 
-let PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 3001;
 
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');

@@ -12,6 +12,14 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    fetch("/api/auth/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+
   };
 
   return (

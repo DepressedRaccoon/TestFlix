@@ -1,0 +1,17 @@
+{
+  "name": "TestFlix",
+  "version": "1.0.0",
+  "main": "app/src/index.js",
+  "scripts": {
+    "start": "cd api && yarn start && cd app && yarn start",
+    "develop": "concurrently \"cd api && yarn start\" \"cd app && yarn start\"",
+    "install": "cd app && yarn install && cd api && yarn install",
+    "build": "cd app && yarn build"
+  },
+  "repository": "https://github.com/SChafinIII/TestFlix.git",
+  "author": "SChafinIII <118332995+SChafinIII@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
