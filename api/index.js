@@ -31,9 +31,9 @@ app.use("/api/users", userRoute);
 app.use("/api/movies", movieRoute);
 app.use("/api/lists", listRoute);
 
-app.listen(3001, () => {
-    console.log("Server is running on port 3001!");
-}); 
+// app.listen(3001, () => {
+//     console.log("Server is running on port 3001!");
+// }); 
 
 const startApolloServer = async () => {
     await server.start();
