@@ -16,18 +16,9 @@ export default function Login() {
 
   return (
     <div className="login">
-      <div className="top">
-        <div className="wrapper">
-          <img
-            className="logo"
-            src=""
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="container">
+        <h1>Sign In</h1>
+        <div className='input-groups'>
         <form>
-          <h1>Sign In</h1>
           <input
             type="email"
             placeholder="Email or phone number"
@@ -41,15 +32,17 @@ export default function Login() {
           <button className="loginButton" onClick={handleLogin}>
             Sign In
           </button>
-          <span>
-            New to Rickflix? <b>Sign up now.</b>
-          </span>
-          <small>
-            This page is protected by Google reCAPTCHA to ensure you're not a
-            bot. <b>Learn more</b>.
-          </small>
-        </form>
+          <div className="signup-text">
+            <span>
+              New to Rickflix? <b>Sign up now.</b>
+            </span>
+            <small>
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot. <b>Learn more</b>.
+            </small>
+          </div>
+        </form>    
       </div>
-    </div>
+      </div>
   );
 }
