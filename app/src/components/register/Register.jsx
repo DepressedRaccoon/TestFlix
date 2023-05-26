@@ -4,7 +4,7 @@ import "./Register.scss";
 
 const Register = () => {
   const [inputs, setInputs] = useState({});
-  
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setInputs((prevInputs) => ({ ...prevInputs, [name]: value }));
@@ -29,30 +29,41 @@ const Register = () => {
         <form onSubmit={handleSubmit}>
           <div className="input-groups">
             <label>
-                Email:
-                <input 
-                  type="text"
-                  name="email"
-                  value={inputs.email || ""}
-                  onChange={handleChange}
-                      />
-              </label>  
+              Username:
+              <input
+                type="text"
+                name="username"
+                value={inputs.username || ""}
+                onChange={handleChange}
+              />
+            </label>
+          </div>
+          <div className="input-groups">
+            <label>
+              Email:
+              <input
+                type="text"
+                name="email"
+                value={inputs.email || ""}
+                onChange={handleChange}
+              />
+            </label>
           </div>
           <div className="input-groups">
             <label>
               Password:
-              <input 
+              <input
                 type="password"
                 name="password"
                 value={inputs.password || ""}
                 onChange={handleChange}
-                    />
+              />
             </label>
           </div>
           <div className="input-button">
-           <input type="submit"></input>
+            <input type="submit"></input>
           </div>
-          
+
         </form>
       </div>
     </div>
