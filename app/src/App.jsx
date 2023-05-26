@@ -4,13 +4,15 @@ import Home from "./home/Home"
 import Login from './components/login/Login';
 import Navbar from './components/topbar/Navbar';
 import Register from './components/register/Register';
+import Movies from './components/movies/Movies';
 import "./app.scss";
 
 import { AuthContext } from './context/AuthContext';
 import { useContext } from 'react';
 
 const App = () => {
-  const { user } = useContext(AuthContext);
+  const { user } = true 
+  // useContext(AuthContext);
   return (
     <div className="app">
        <BrowserRouter>
@@ -18,6 +20,7 @@ const App = () => {
         <Routes>
           {!user && <Route path="/register" element={<Register />} />}
           {!user && <Route path="/login" element={<Login />} />}
+          {!user && <Route path="/movies" element={<Movies />} />}
           {user ? (
             <Route path="/" element={<Home />} />
           ) : (
